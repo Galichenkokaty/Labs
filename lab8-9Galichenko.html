@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    вариант 1
+
+var users =['nik','sam','kol']
+var login =['nkl','skm','kkl']
+users.unshift('mok')
+
+if (users[0].length != users.length)
+   login.pop();
+   else{
+     login.shift()
+    login.pop() }
+   console.log(users);
+   console.log(login);
+   console.log(users.length);
+   console.log(login.length);
+
+ //Упражнение-2
+
+    for (var i = 0; i < 6; i++) {
+        a = 100 - i * 20;
+        console.log('Число:' + a);
+    }
+//Упражнение-3
+        var A = [12, -45, 67, 1, 90, 666];
+    for (i = 0; i < A.length; i++) {
+        if (A[i] % 2 == 0) {
+            console.log(A[i]);
+        }
+
+    }
+//Упражнение-4
+console.log('Упражнение 4');
+        var A = [];
+    console.log('Прямой порядок:');
+    for (var i = 0; i < 5; i++) {
+        A[i] = i * i;
+        console.log(A[i]);
+    }
+    console.log('Обратный порядок:');
+    for (var i = 4; i > -1; i--) {
+        console.log(A[i]);
+    }
+
+  </script>
+</body>
+</html>
